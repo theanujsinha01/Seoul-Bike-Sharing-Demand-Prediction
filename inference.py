@@ -14,8 +14,8 @@ def initialize_model_and_scaler(model_path, sc_path):
         return None, None
 
 # Example usage:
-model_path = r"C:\Users\thean\Downloads\Seoul-Bike-Sharing-Demand-Prediction\models\xgboost_regressor_r2_941_v1.pkl"
-sc_path = r"C:\Users\thean\Downloads\Seoul-Bike-Sharing-Demand-Prediction\models\sc.pkl"
+model_path = r"models\xgb_model.pkl"
+sc_path = r"models\scaler.pkl"
 
 model, sc = initialize_model_and_scaler(model_path, sc_path)
 if model and sc:
