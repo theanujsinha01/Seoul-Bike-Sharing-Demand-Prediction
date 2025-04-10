@@ -14,7 +14,7 @@ def initialize_model_and_scaler(model_path, sc_path):
         return None, None
 
 # Example usage:
-model_path = r"models\xgb_model.pkl"
+model_path = r"models\rfr_model.pkl"
 sc_path = r"models\scaler.pkl"
 
 model, sc = initialize_model_and_scaler(model_path, sc_path)
